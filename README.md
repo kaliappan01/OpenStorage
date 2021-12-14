@@ -6,6 +6,10 @@
 [Ganache](https://trufflesuite.com/ganache/)  
  A personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests.
 
+[Metamask](https://metamask.io/)  
+MetaMask is an extension for accessing Ethereum enabled distributed applications, or "Dapps" in your browser!
+The extension injects the Ethereum web3 API into every website's javascript context, so that dapps can read from the blockchain.
+
 
 ## 🔧 Project Diagram:
 ![Project Diagram](https://i.gyazo.com/2738ea6743a40036756b1b5714ab9fa8.png)

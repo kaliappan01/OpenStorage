@@ -2,6 +2,7 @@
   "name": "dstorage",
   "version": "0.1.0",
   "description": "Decentralized File Storage",
+ "homepage": "http://kaliappan01.github.io/OpenStorage",
   "author": "github.com/xternet",
   "homepage": ".",
   "dependencies": {
@@ -11,6 +12,8 @@
     "babel-preset-es2015": "6.24.1",
     "babel-preset-stage-2": "6.24.1",
     "babel-preset-stage-3": "6.24.1",
+ "predeploy": "npm run build",
+ "deploy": "gh-pages -d build",
     "babel-register": "6.26.0",
     "bootstrap": "^4.5.2",
     "chai": "4.2.0",
