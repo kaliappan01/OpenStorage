@@ -37,7 +37,7 @@ class App extends Component {
 
     //Load account
     const accounts = await web3.eth.getAccounts();
-    this.setState({ account: accounts[0]});
+    this.setState({ account: accounts[0] });
 
     const networkId = await web3.eth.net.getId();
     const networkData = DStorage.networks[networkId];
@@ -144,6 +144,8 @@ class App extends Component {
     }
 
     //Bind functions
+    this.uploadFile = this.uploadFile.bind(this)
+    this.captureFile = this.captureFile.bind(this)
   }
 
   render() {

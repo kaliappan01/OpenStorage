@@ -1,6 +1,7 @@
 {
-  "name": "dstorage",
-  "version": "0.1.0",
+  "name": "@kaliappan01/openstorage",
+  "version": "0.2.0",
+  "repository": "https://github.com/kaliappan01/OpenStorage",
   "description": "Decentralized File Storage",
  "homepage": "http://kaliappan01.github.io/OpenStorage",
   "author": "github.com/xternet",
